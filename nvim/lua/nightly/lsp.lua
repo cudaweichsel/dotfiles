@@ -3,14 +3,14 @@ vim.lsp.enable({
 	"docker_language_server",
 	"groovyls",
 	"jsonls",
+	"yamlls",
 	"lua_ls",
 	"nil_ls",
 	"pylsp",
-	"yamlls",
 })
 
 vim.diagnostic.config({
- 	severity_sort = true,
+	severity_sort = true,
 	virtual_text = true,
 	underline = { severity = vim.diagnostic.severity.ERROR },
 })
