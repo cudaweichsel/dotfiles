@@ -178,7 +178,23 @@ return {
 			docker_language_server = {},
 			docker_compose_language_service = {},
 			yamlls = {},
-			pylsp = {},
+			pylsp = {
+				settings = {
+					pylsp = {
+						plugins = {
+							flake8 = {
+								enabled = false,
+							},
+							pycodestyle = {
+								enabled = false,
+							},
+							pyflakes = {
+								enabled = false,
+							},
+						},
+					},
+				},
+			},
 			groovyls = {},
 			nil_ls = {},
 			jsonls = {},

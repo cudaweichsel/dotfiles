@@ -4,6 +4,7 @@ vim.keymap.set("n", "<C-s>", "<cmd>w<CR>", { desc = "Save" })
 vim.keymap.set("i", "<C-s>", "<Esc><cmd>w<CR>a", { desc = "Save" })
 
 vim.keymap.set({ "n", "i", "v" }, "<C-q>", "<Esc><cmd>qa<CR>", { desc = "Quit all" })
+vim.keymap.set("n", "q", "<cmd>q<cr>", { desc = "Quit" })
 
 vim.keymap.set({ "n", "v" }, "x", '"_x', { desc = "Delete without copying" })
 
