@@ -1,7 +1,7 @@
 { lib, ... }: 
 {
 	keymaps = [
-		(lib.mkKeymap ["n" "v" "c" "t"] "<C-x>" "<Esc><cmd>qa<CR>" "Quit all")
+		(lib.mkKeymap ["n" "v" "c" "t"] "<C-a>" "<Esc><cmd>qa<CR>" "Quit all")
 		(lib.mkKeymap ["n" "v"] "<C-q>" "<Esc><cmd>q<CR>" "Quit")
 
 		(lib.mkKeymap "n" "<Esc>" "<cmd>nohlsearch<CR>" "Remove search highlights")
