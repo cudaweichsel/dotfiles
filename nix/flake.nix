@@ -31,9 +31,11 @@
 								pkgs.zoxide
 								pkgs.tmux
 								pkgs.fzf
+								pkgs.lazygit
 							];
 						};
 					};
+					formatter = pkgs.nixpkgs-fmt;
 				};
 		};
 }
