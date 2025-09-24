@@ -31,6 +31,7 @@ alias jj='zi'
 alias fd='fdfind'
 alias cnvim='nvim ~/.config/nvim/'
 alias bat="batcat"
+alias lla="ll -a"
 
 eval "$(zoxide init zsh)"
 source <(fzf --zsh)
